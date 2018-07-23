@@ -9,7 +9,7 @@ public class TriPairImpair {
 		
 		/*exo 2 
 		 * etape 1 = saisir 10 nbr dans un tableau 
-		 * etape 2 phase de tri: placer les chiffres pairs à gauche et les chiffres impairs à droite
+		 * etape 2 phase de tri: placer les chiffres pairs Ã  gauche et les chiffres impairs Ã  droite
 		*/
 		int [] tab = new int[10] ;
 		
@@ -24,16 +24,16 @@ public class TriPairImpair {
 		
 				
 		 if (number == 0) {
-	            System.out.println("Le nombre est zéro (et il est pair)");
+	            System.out.println("Le nombre est zÃ©ro (est il est pair)");
 	        } else {
 	            int reste = number % 2;
 	            if (reste == 0) {
-	                System.out.println("et pair");
+	                System.out.println("est pair");
 	            } else {
-	                System.out.println("et impair");
+	                System.out.println("est impair");
 	            }
 			}
-					System.out.println("Les valeurs du tableau trié sont:");
+					System.out.println("Les valeurs du tableau triÃ© sont:");
 					for (i=0;i<10;i++ ) {
 						System.out.print(tab[i]+" | ");
 			
